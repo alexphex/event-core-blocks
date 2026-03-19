@@ -6,7 +6,7 @@
     "title": "Agenda Wrapper",
     "category": "layout",
     "icon": "calendar-alt",
-    "description": "Контейнер для пунктов расписания.",
+    "description": "Container for schedule items.",
     "supports": {
         "html": false,
         "__experimentalInnerBlocks": true

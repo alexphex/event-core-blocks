@@ -9,7 +9,7 @@
     "event-core-blocks/features-grid"
   ],
   "icon": "saved",
-  "description": "Отдельная карточка преимущества.",
+  "description": "Card for featured grid block.",
   "attributes": {
     "title": {
       "type": "string",

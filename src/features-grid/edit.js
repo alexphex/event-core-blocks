@@ -3,7 +3,7 @@ import './editor.scss';
 
 
 export default function Edit() {
-    // Определяем шаблон: 3 дочерних блока сразу
+    // Define a template: 3 child blocks at once
     const TEMPLATE = [
         [ 'event-core-blocks/features-item', { title: 'Преимущество 1' } ],
         [ 'event-core-blocks/features-item', { title: 'Преимущество 2' } ],

@@ -6,7 +6,7 @@
     "title": "Features Grid",
     "category": "layout",
     "icon": "grid-view", 
-    "description": "Сетка для вывода преимуществ или характеристик.",
+    "description": "Grid for displaying advantages or characteristics.",
     "attributes": {
         "columns": {
             "type": "number",

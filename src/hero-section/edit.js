@@ -8,13 +8,13 @@ export default function Edit( { attributes, setAttributes } ) {
         <div { ...useBlockProps() }>
             <RichText
                 tagName="h1"
-                placeholder={ __( 'Введите заголовок...', 'event-core-blocks' ) }
+                placeholder={ __( 'Title...', 'event-core-blocks' ) }
                 value={ title }
                 onChange={ ( val ) => setAttributes( { title: val } ) }
             />
             <RichText
                 tagName="p"
-                placeholder={ __( 'Введите подзаголовок...', 'event-core-blocks' ) }
+                placeholder={ __( 'Subtitle...', 'event-core-blocks' ) }
                 value={ subtitle }
                 onChange={ ( val ) => setAttributes( { subtitle: val } ) }
             />

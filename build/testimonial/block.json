@@ -6,7 +6,7 @@
   "title": "Testimonial",
   "category": "text",
   "icon": "format-quote",
-  "description": "Блок отзыва: фото, текст и автор.",
+  "description": "Block Testimonial: photo, text & author.",
   "attributes": {
     "text": {
       "type": "string",

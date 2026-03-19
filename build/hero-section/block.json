@@ -6,7 +6,7 @@
   "title": "Hero Section",
   "category": "layout",
   "icon": "cover-image",
-  "description": "Главный экран: заголовок и подзаголовок.",
+  "description": "Hero Section: title & subtitle.",
   "attributes": {
     "title": {
       "type": "string",

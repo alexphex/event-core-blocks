@@ -1,5 +1,4 @@
 import { useBlockProps, RichText, MediaUpload, MediaUploadCheck } from '@wordpress/block-editor';
-import { Button } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
 
 export default function Edit( { attributes, setAttributes } ) {
@@ -31,14 +30,14 @@ export default function Edit( { attributes, setAttributes } ) {
             
             <RichText
                 tagName="blockquote"
-                placeholder={ __( 'Текст отзыва...', 'event-core-blocks' ) }
+                placeholder={ __( 'Testimonial text...', 'event-core-blocks' ) }
                 value={ text }
                 onChange={ ( val ) => setAttributes( { text: val } ) }
             />
             
             <RichText
                 tagName="cite"
-                placeholder={ __( 'Имя автора...', 'event-core-blocks' ) }
+                placeholder={ __( 'Author name...', 'event-core-blocks' ) }
                 value={ author }
                 onChange={ ( val ) => setAttributes( { author: val } ) }
             />

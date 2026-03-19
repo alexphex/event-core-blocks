@@ -12,12 +12,12 @@
 ?>
 
 <?php
-// Получаем атрибут из настроек блока
+// get attributes from block.json
 $posts_to_show = isset( $attributes['postsToShow'] ) ? $attributes['postsToShow'] : 3;
 
 $args = array(
     'post_type'      => 'post',
-    'posts_per_page' => $posts_to_show, // Используем динамическое значение
+    'posts_per_page' => $posts_to_show, 
     'orderby'        => 'date',
     'order'          => 'DESC',
 );
@@ -25,7 +25,6 @@ $args = array(
 $query = new WP_Query( $args );
 
 if ( $query->have_posts() ) : ?>
-
 
     <div <?php echo get_block_wrapper_attributes(); ?>>
         <?php if ( $query->have_posts() ) : ?>
@@ -41,7 +40,6 @@ if ( $query->have_posts() ) : ?>
             <?php endwhile; wp_reset_postdata(); ?>
         <?php endif; ?>
     </div>
-
 
     <?php wp_reset_postdata(); ?>
 <?php endif; ?>

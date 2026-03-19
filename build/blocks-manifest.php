@@ -9,7 +9,7 @@ return array(
 		'title' => 'Agenda Wrapper',
 		'category' => 'layout',
 		'icon' => 'calendar-alt',
-		'description' => 'Контейнер для пунктов расписания.',
+		'description' => 'Container for schedule items.',
 		'supports' => array(
 			'html' => false,
 			'__experimentalInnerBlocks' => true
@@ -27,7 +27,7 @@ return array(
 		'title' => 'Features Grid',
 		'category' => 'layout',
 		'icon' => 'grid-view',
-		'description' => 'Сетка для вывода преимуществ или характеристик.',
+		'description' => 'Grid for displaying advantages or characteristics.',
 		'attributes' => array(
 			'columns' => array(
 				'type' => 'number',
@@ -61,7 +61,7 @@ return array(
 			'event-core-blocks/features-grid'
 		),
 		'icon' => 'saved',
-		'description' => 'Отдельная карточка преимущества.',
+		'description' => 'Card for featured grid block.',
 		'attributes' => array(
 			'title' => array(
 				'type' => 'string',
@@ -89,7 +89,7 @@ return array(
 		'title' => 'Hero Section',
 		'category' => 'layout',
 		'icon' => 'cover-image',
-		'description' => 'Главный экран: заголовок и подзаголовок.',
+		'description' => 'Hero Section: title & subtitle.',
 		'attributes' => array(
 			'title' => array(
 				'type' => 'string',
@@ -118,7 +118,7 @@ return array(
 		'title' => 'Testimonial',
 		'category' => 'text',
 		'icon' => 'format-quote',
-		'description' => 'Блок отзыва: фото, текст и автор.',
+		'description' => 'Block Testimonial: photo, text & author.',
 		'attributes' => array(
 			'text' => array(
 				'type' => 'string',

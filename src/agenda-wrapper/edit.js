@@ -6,7 +6,7 @@ export default function Edit() {
 
     return (
         <div { ...blockProps }>
-            {/* Здесь теперь будет та самая зона для вставки других блоков */}
+            {/* the area for inserting other blocks */}
             <InnerBlocks />
         </div>
     );

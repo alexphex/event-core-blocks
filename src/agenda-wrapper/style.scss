@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/* Add a dashed border in the editor so the developer can see the "box" */
+.wp-block-event-core-blocks-agenda-wrapper {
+    outline: 2px dashed #ddd;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+/* Add a label so the user knows this is the Wrapper */
+.wp-block-event-core-blocks-agenda-wrapper::before {
+    content: "Agenda Section Container";
+    display: block;
+    font-size: 10px;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

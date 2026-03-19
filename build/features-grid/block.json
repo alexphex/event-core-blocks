@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "event-core-blocks/features-grid",
+  "version": "0.1.0",
+  "title": "Features Grid",
+  "category": "layout",
+  "icon": "grid-view",
+  "description": "Сетка для вывода преимуществ или характеристик.",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "textdomain": "event-core-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

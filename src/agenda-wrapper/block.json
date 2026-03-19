@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "event-core-blocks/agenda-wrapper",
+    "version": "0.1.0",
+    "title": "Agenda Wrapper",
+    "category": "layout",
+    "icon": "calendar-alt",
+    "description": "Контейнер для пунктов расписания.",
+    "supports": {
+        "html": false,
+        "__experimentalInnerBlocks": true
+    },
+    "textdomain": "event-core-blocks",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

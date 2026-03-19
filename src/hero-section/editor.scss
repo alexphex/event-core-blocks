@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-event-core-blocks-hero-section {
+    background-color: #2d3748;
+    padding: 60px;
+    border: 2px solid #4a5568;
+}
+
+/* Make the placeholder text visible in the dark editor */
+.wp-block-event-core-blocks-hero-section [data-empty="true"]::before {
+    color: #a0aec0 !important;
+}
+
+/* Style the RichText fields to look like the real thing */
+.wp-block-event-core-blocks-hero-section h1 {
+    margin-top: 0;
+}

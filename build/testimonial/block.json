@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "event-core-blocks/testimonial",
+  "version": "0.1.0",
+  "title": "Testimonial",
+  "category": "text",
+  "icon": "format-quote",
+  "description": "Блок отзыва: фото, текст и автор.",
+  "attributes": {
+    "text": {
+      "type": "string",
+      "source": "html",
+      "selector": "blockquote"
+    },
+    "author": {
+      "type": "string",
+      "source": "html",
+      "selector": "cite"
+    },
+    "mediaId": {
+      "type": "number"
+    },
+    "mediaUrl": {
+      "type": "string",
+      "default": "https://via.placeholder.com/100"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "event-core-blocks",
+  "editorScript": "file:./index.js"
+}

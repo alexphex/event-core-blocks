@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "event-core-blocks/hero-section",
+    "version": "0.1.0",
+    "title": "Hero Section",
+    "category": "layout",
+    "icon": "cover-image",
+    "description": "Главный экран: заголовок и подзаголовок.",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": "h1"
+        },
+        "subtitle": {
+            "type": "string",
+            "source": "html",
+            "selector": "p"
+        }
+    },
+    "supports": {
+        "html": false
+    },
+    "textdomain": "event-core-blocks",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

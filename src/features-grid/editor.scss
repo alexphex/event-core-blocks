@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-event-core-blocks-features-grid {
+    border: 2px dashed #e2e8f0;
+    padding: 20px;
+    background: #fdfdfd;
+}
+
+/* Helper text for the admin */
+.wp-block-event-core-blocks-features-grid::before {
+    content: "Features Layout Section";
+    font-size: 11px;
+    color: #cbd5e0;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 15px;
+}

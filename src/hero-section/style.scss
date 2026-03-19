@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-event-core-blocks-hero-section {
+    background-color: #1a202c; /* Dark background */
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 0; /* Hero usually goes edge-to-edge */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.wp-block-event-core-blocks-hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.wp-block-event-core-blocks-hero-section p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.9;
+    line-height: 1.6;
+}

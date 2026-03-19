@@ -1,0 +1,20 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/* Make sure the editor preview matches the grid */
+.wp-block-event-core-blocks-upcoming-events {
+    border: 1px dashed #4f46e5; /* Purple dash to show it's dynamic */
+    padding: 15px;
+    background: #f8fafc;
+}
+
+/* Style the placeholder text in the editor */
+.wp-block-event-core-blocks-upcoming-events .editor-preview-note {
+    font-style: italic;
+    color: #6366f1;
+    text-align: center;
+    padding: 20px;
+}
